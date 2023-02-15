@@ -22,7 +22,7 @@ pipeline {
         stage('BUILD') { 
             steps {
 				echo '-----------------BUILD STAGE EXECUTION ------------------------'
-				sh "node helloWordNodejs/index.js"
+				sh "node firstpipeline/index.js"
             }
         }
 		stage('DEPLOY') { 
